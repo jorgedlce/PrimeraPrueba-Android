@@ -23,7 +23,7 @@ public class SecondActivity extends AppCompatActivity {
         texto = (TextView)findViewById(R.id.texto);
         Intent intent = getIntent();
         Bundle extra = intent.getExtras();
-
+        //una prueba para github
         if(extra != null){
             String palabra=extra.getString("DATO");
             texto.setText(palabra);
